@@ -1,60 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Test</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Test</title>
 </head>
+
 <body>
-    <a href="index.html">Back to the article</a>
-    <header style="color:red; text-align:center;"><h1><strong>TEST</strong></h1></header>
-    <form action="https://formspree.io/xoqwldpk" method="POST">
+	<a href="index.html">Back to the article</a>
+	<header style="color:red; text-align:center;">
+		<h1><strong>TEST</strong></h1>
+	</header>
+	<form name="test-form" action="https://formspree.io/xoqwldpk" method="POST">
 
-    1. Which of the following version doesn't mentioned in the article as a origin of word foo?
+		1. Which of the following version doesn't mentioned in the article as a origin of word foo?
 
-    <br><br>
+		<br><br>
 
-    <input type="radio" id="v1"><label for="v1">
+		<input type="radio" id="v1"><label for="v1">
     Origin of the word 'foo' traced back to the army joke.</label><br>
-    <input type="radio" id="v2"><label for="v2">
+		<input type="radio" id="v2"><label for="v2">
     It derives from Chinese word "luck".</label><br>
-    <input type="radio" id="v3"><label for="v3">
+		<input type="radio" id="v3"><label for="v3">
     This word was coined by Guido Van Rossum, who created 'Python' language.</label><br>
-    <input type="radio" id="v4"><label for="v4">
+		<input type="radio" id="v4"><label for="v4">
     This word first appeared in Smokey Stover comics.</label><br><br>
 
     2. What 'foo' does mean?<br><br>
 
-    <input type="radio" id="v5"><label for="v5">
+		<input type="radio" id="v5"><label for="v5">
     It's metasyntactic marking in programming languages.</label><br>
-    <input type="radio" id="v6"><label for="v6">
+		<input type="radio" id="v6"><label for="v6">
     It's marking for empty tag in HTML.</label><br>
-    <input type="radio" id="v7"><label for="v7">
+		<input type="radio" id="v7"><label for="v7">
     It's acronym to 'Fast objective oriented'.</label><br>
-    <input type="radio" id="v8"><label for="v8">
+		<input type="radio" id="v8"><label for="v8">
     It's special cmd comand.</label><br><br>
 
     3. How many parameters takes 'foo' function?<br><br>
 
-    <input type="radio" id="v9"><label for="v9">
+		<input type="radio" id="v9"><label for="v9">
     Just one.</label><br>
-    <input type="radio" id="v10"><label for="v10">
+		<input type="radio" id="v10"><label for="v10">
     Two or more.</label><br>
-    <input type="radio" id="v11"><label for="v11">
+		<input type="radio" id="v11"><label for="v11">
     Function foo doesn't take any parameters.</label><br>
-    <input type="radio" id="v12"><label for="v12">
+		<input type="radio" id="v12"><label for="v12">
     It depends how it function was defined.</label><br><br>
 
-    <label for="name">What is your name: </label><input type="text" placeholder="Bond" id="name"><br><br>
+		<label for="name">What is your name: </label><input type="text" placeholder="Bond" id="name" required>
+		<br><br>
 
-    <label for="surname">
-    
-    What is your surname: </label><input type="text" placeholder="James Bond" id="surname"><br><br>
+		<label for="surname">
 
-    <input type="submit">
+    What is your surname: </label><input type="text" placeholder="James Bond" id="surname" required><br><br>
+
+		<input type="submit" required>
 
 
     </form>
 </body>
+
 </html>
